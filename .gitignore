@@ -1,0 +1,55 @@
+# Obsidian vault .gitignore
+# https://help.obsidian.md/Advanced+topics/Using+Git+with+Obsidian
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Obsidian config (optional - some commit these for shared settings)
+# .obsidian/workspace*
+# .obsidian/workspace.json
+# .obsidian/plugins/*/data.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Logs
+*.log
+logs/
+
+# Node modules (if any plugins use npm)
+node_modules/
+
+# Python venv
+venv/
+.env
+
+# Large media (use Git LFS instead)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.psd
+*.ai
+*.sketch
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hermes specific - don't sync runtime state
+state.db*
+*.pid
+*.lock
+gateway*
+
+# Cache
+cache/
+*.cache
