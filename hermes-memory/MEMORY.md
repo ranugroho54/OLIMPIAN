@@ -5,3 +5,7 @@ Technical stack decided: Python 3.11+, aiogram 3.x, SQLAlchemy 2.0 async (SQLite
 User has existing Telegram projects: @SinyalEntryCrypto and a trading scanner bot. These will be integrated as modules in the Olympian ecosystem. Token security: never reuse exposed tokens, regenerate via BotFather, store only in .env.
 §
 User prefers step-by-step phased building (Phase 0 Foundation → Phase 1 Zeus → Phase 2 Athena+Hermes → Phase 3 Plutus CFO → Phase 4 Poseidon+Ares+Argus → Phase 5 Content Factory → Phase 6 Aphrodite → Phase 7 Demeter → Phase 8 Automated Business → Phase 9 Owner Dashboard → Phase 10 Owner Mode). Each phase must produce runnable code, not just diagrams.
+§
+Obsidian vault for memory/knowledge management set up at ~/Obsidian/Olympian-AI-Memory/ with Git version control and auto-sync from Hermes memory via systemd timer (every 15 min). CLI scripts created: obsidian-daily.sh, obsidian-search.sh, obsidian-append.sh, sync-hermes-to-obsidian.sh.
+§
+Next immediate step: Phase 0 Foundation (project scaffolding, docker-compose, config, CI).
